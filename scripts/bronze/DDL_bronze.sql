@@ -27,7 +27,7 @@ CREATE TABLE IF NOT EXISTS bronze.cust_info (
 -- =====================================================
 -- CRM PRODUCT INFORMATION
 -- =====================================================
-CREATE TABLE IF NOT EXISTS bronze.crm_prd_info (
+CREATE TABLE IF NOT EXISTS bronze.prd_info (
     prd_id        INT,
     prd_key       VARCHAR(50),
     prd_nm        VARCHAR(50),
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS bronze.crm_prd_info (
 -- =====================================================
 -- CRM SALES DETAILS
 -- =====================================================
-CREATE TABLE IF NOT EXISTS bronze.crm_sales_details (
+CREATE TABLE IF NOT EXISTS bronze.sales_details (
     sls_ord_num   VARCHAR(50),
     sls_prd_key   VARCHAR(50),
     sls_cust_id   INT,
@@ -55,7 +55,7 @@ CREATE TABLE IF NOT EXISTS bronze.crm_sales_details (
 -- =====================================================
 -- ERP LOCATION DATA
 -- =====================================================
-CREATE TABLE IF NOT EXISTS bronze.erp_loc_a101 (
+CREATE TABLE IF NOT EXISTS bronze.loc_a101 (
     cid    VARCHAR(50),
     cntry  VARCHAR(50)
 );
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS bronze.erp_loc_a101 (
 -- =====================================================
 -- ERP CUSTOMER DEMOGRAPHICS
 -- =====================================================
-CREATE TABLE IF NOT EXISTS bronze.erp_cust_az12 (
+CREATE TABLE IF NOT EXISTS bronze.cust_az12 (
     cid    VARCHAR(50),
     bdate  DATE,
     gen    VARCHAR(50)
@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS bronze.erp_cust_az12 (
 -- =====================================================
 -- ERP PRODUCT CATEGORY
 -- =====================================================
-CREATE TABLE IF NOT EXISTS bronze.erp_px_cat_g1v2 (
+CREATE TABLE IF NOT EXISTS bronze.px_cat_g1v2 (
     id           VARCHAR(50),
     cat          VARCHAR(50),
     subcat       VARCHAR(50),
