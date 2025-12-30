@@ -15,7 +15,7 @@ Script Purpose:
 
  WARNING:
        Executing this script will permanently delete the existing Data_Warehouse
-	   database and a-- ll its contents. Use with caution, especially in production.
+	   database and all its contents. Use with caution, especially in production.
 ============================================================================
 
 */
