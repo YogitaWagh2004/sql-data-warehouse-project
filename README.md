@@ -97,10 +97,7 @@ Serving as a portfolio project for Data Engineer / Analytics Engineer roles
 
 ## 👋 About Me
 Hi there! I'm Yogita,
-I am a **Data Engineer (Fresher)** with a strong interest in building reliable and scalable **data pipelines and data warehouses**.  
-I enjoy working with data from raw ingestion to business-ready models using **SQL and modern data architecture principles**.  
-My mission is to continuously **build knowledge through hands-on projects**, learn industry best practices, and grow as a data professional.  
-I am passionate about data quality, clean transformations, and enabling meaningful analytics.  
+I am a **Data Engineer (Fresher)** with a strong interest in building reliable and scalable **data pipelines and data warehouses**.I enjoy working with data from raw ingestion to business-ready models using **SQL and modern data architecture principles**. My mission is to continuously **build knowledge through hands-on projects**, learn industry best practices, and grow as a data professional. I am passionate about data quality, clean transformations, and enabling meaningful analytics.
 Actively seeking opportunities to learn, contribute, and evolve as a Data Engineer.
 
 Let's stay in touch! 
