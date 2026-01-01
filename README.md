@@ -27,31 +27,48 @@ This project involves:
   4. Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
 SQL Development
+
 Data Architect
+
 Data Engineering
+
 ETL Pipeline Developer
+
 Data Modeling
+
 Data Analytics
 
 
 ## 🛠️ Tech Stack
 
 Database: MySQL Server
+
 Language: SQL
+
 Data Sources: CSV Files
+
 Architecture: Medallion (Bronze / Silver / Gold)
+
 Modeling: Star Schema
+
 Analytics: SQL-based reporting
 
 ## 🎯 Skills Demonstrated
 
 This repository highlights expertise in:
+
 SQL Development
+
 Data Warehousing
+
 Data Engineering
+
 ETL Pipeline Development
+
 Data Modeling (Star Schema)
+
 Data Analytics & Reporting
 
 ## 🚀 Project Requirements
@@ -72,7 +89,9 @@ Specifications
 This project is ideal for:
 
 Demonstrating real-world data warehouse design
+
 Showcasing analytics engineering skills
+
 Serving as a portfolio project for Data Engineer / Analytics Engineer roles
 
 
