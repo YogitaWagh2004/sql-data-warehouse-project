@@ -66,30 +66,6 @@ Specifications
 - Scope: Focus on the latest dataset only; historization of data is not required.
 - Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
-## 📂 Repository Structure
-
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
-│
-├── tests/                              # Test scripts and quality files
-│
-├── README.md                           # Project overview and instructions                     
-
-
 ## 📌 Use Case
 
 This project is ideal for:
@@ -107,7 +83,7 @@ My mission is to continuously **build knowledge through hands-on projects**, lea
 I am passionate about data quality, clean transformations, and enabling meaningful analytics.  
 Actively seeking opportunities to learn, contribute, and evolve as a Data Engineer.
 
-Let's stay in touch! Feel free to connect with me on the following platforms:
+Let's stay in touch! 
 
 🔗 **LinkedIn:** https://www.linkedin.com/in/yogita-wagh-775632327/
 
