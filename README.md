@@ -12,7 +12,8 @@ This project follows the Medallion Architecture pattern with Bronze, Silver, and
 
 **🔹 Bronze Layer – Raw Data** : Stores raw data as-is from the source systems. Data is ingested from CSV Files into Mysql Database.
 
-**🔹 Silver Layer – Cleansed & Conformed Data** : This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+**🔹 Silver Layer – Cleansed & Conformed Data** : This layer includes data cleansing, standardization, and normalization processes to prepare     
+      data for analysis.
 
 **🔹 Gold Layer – Business-Ready Data** : Houses business-ready data modeled into a star schema required for reporting and analytics.
 
