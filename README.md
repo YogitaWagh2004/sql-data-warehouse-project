@@ -9,94 +9,104 @@ It is built as a portfolio project to highlight skills in designing scalable **d
 
 This project follows the Medallion Architecture pattern with Bronze, Silver, and Gold layers:
 
-**🔹 Bronze Layer – Raw Data**
+**🔹 Bronze Layer – Raw Data** : Stores raw data as-is from the source systems. Data is ingested from CSV Files into Mysql Database.
 
-Ingests raw data from source systems (CSV files)
+**🔹 Silver Layer – Cleansed & Conformed Data** : This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 
-Data is loaded as-is into a SQL Server database
-
-Serves as a historical record of source data
-
-**🔹 Silver Layer – Cleansed & Conformed Data**
-
-Handles data cleansing, standardization, and normalization
-
-Applies business rules and data quality checks
-
-Prepares data for analytical modeling
-
-**🔹 Gold Layer – Business-Ready Data**
-
-Data is modeled using a star schema
-
-Contains fact and dimension tables
-
-Optimized for reporting, dashboards, and analytical queries
+**🔹 Gold Layer – Business-Ready Data** : Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ## 📖 Project Overview
 
-This project covers the full data lifecycle:
+This project involves:
 
-Data Architecture Design
+  1. Data Architecture: Designing a Modern Data Warehouse Using Medallion Architecture Bronze, Silver, and Gold layers.
+  2. ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
+  3. Data Modeling: Developing fact and dimension tables optimized for analytical queries.
+  4. Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
-Modern data warehouse using Medallion Architecture
-
-ETL Pipeline Development
-
-Extract data from CSV sources
-
-Transform data for quality and consistency
-
-Load structured data into analytical tables
-
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+SQL Development
+Data Architect
+Data Engineering
+ETL Pipeline Developer
 Data Modeling
+Data Analytics
 
-Star schema design
-
-Fact and dimension tables optimized for analytics
-
-Analytics & Reporting
-
-SQL-based analytical queries
-
-Business insights such as trends, KPIs, and performance metrics
 
 ## 🛠️ Tech Stack
 
 Database: MySQL Server
-
 Language: SQL
-
 Data Sources: CSV Files
-
 Architecture: Medallion (Bronze / Silver / Gold)
-
 Modeling: Star Schema
-
 Analytics: SQL-based reporting
 
 ## 🎯 Skills Demonstrated
 
 This repository highlights expertise in:
-
 SQL Development
-
 Data Warehousing
-
 Data Engineering
-
 ETL Pipeline Development
-
 Data Modeling (Star Schema)
-
 Data Analytics & Reporting
+
+## 🚀 Project Requirements
+
+**Building the Data Warehouse (Data Engineering)**
+Objective
+Develop a modern data warehouse using Mysql to consolidate sales data, enabling analytical reporting and informed decision-making.
+
+Specifications
+- Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
+- Data Quality: Cleanse and resolve data quality issues prior to analysis.
+- Integration: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- Scope: Focus on the latest dataset only; historization of data is not required.
+- Documentation: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+
+## 📂 Repository Structure
+
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
+│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
+│   ├── data_models.drawio              # Draw.io file for data models (star schema)
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions                     
+
 
 ## 📌 Use Case
 
 This project is ideal for:
 
 Demonstrating real-world data warehouse design
-
 Showcasing analytics engineering skills
-
 Serving as a portfolio project for Data Engineer / Analytics Engineer roles
+
+
+## 👋 About Me
+Hi there! I'm Yogita,
+I am a **Data Engineer (Fresher)** with a strong interest in building reliable and scalable **data pipelines and data warehouses**.  
+I enjoy working with data from raw ingestion to business-ready models using **SQL and modern data architecture principles**.  
+My mission is to continuously **build knowledge through hands-on projects**, learn industry best practices, and grow as a data professional.  
+I am passionate about data quality, clean transformations, and enabling meaningful analytics.  
+Actively seeking opportunities to learn, contribute, and evolve as a Data Engineer.
+
+Let's stay in touch! Feel free to connect with me on the following platforms:
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/yogita-wagh-775632327/
+
